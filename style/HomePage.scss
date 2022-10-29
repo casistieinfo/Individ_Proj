@@ -1,0 +1,13 @@
+
+
+
+
+.navbar{
+    background-color: green($color: #000000);
+    display: flex;
+    place-content: space-between;
+}
+
+.nav-logo{
+    width: 10%;
+}
