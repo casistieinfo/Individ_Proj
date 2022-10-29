@@ -6,6 +6,11 @@
         display: flex;
         place-content: space-between;
         background: red;
+
+        .Right-nav{
+            text-decoration: none;
+            color: black;
+        }
     }
 }
 
