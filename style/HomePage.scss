@@ -1,11 +1,12 @@
 
-
-
-
 .navbar{
-    background-color: green($color: #000000);
-    display: flex;
-    place-content: space-between;
+    background: green;
+    padding: 2em;
+    .container{
+        display: flex;
+        place-content: space-between;
+        background: red;
+    }
 }
 
 .nav-logo{

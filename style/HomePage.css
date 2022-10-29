@@ -1,9 +1,14 @@
 .navbar {
-  background-color: 0;
+  background: green;
+  padding: 2em;
+}
+
+.navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+  background: red;
 }
 
 .nav-logo {
