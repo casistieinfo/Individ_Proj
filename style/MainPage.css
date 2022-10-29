@@ -1,6 +1,21 @@
 .mainpage {
+    display:flex;
     background-color:green;
-    height: 1000px;
+    height: 600px;
+}
+.maintext{
+    display: inline-block;
+    background-color: red;
+    flex: 2;
+}
+.mainphotos{
+    display: inline-block;
+    flex: 1;
+    float: right;
+}
+.photos{
+    height: 100%;
+    object-fit: contain;
 }
 
 
