@@ -1,0 +1,54 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  padding: 1em;
+  background: #dddddd;
+}
+
+.navbar .container .Right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .container .Right-nav li {
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.navbar .container .Right-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .container .Left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .container .Left-nav li {
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.navbar .container .Left-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo {
+  width: 5%;
+}
+/*# sourceMappingURL=Navbar.css.map */

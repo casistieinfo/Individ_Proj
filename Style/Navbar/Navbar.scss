@@ -1,0 +1,48 @@
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    .container{
+        display: flex;
+        place-content: space-between;
+        padding: 1em;
+        background: rgb(221, 221, 221);
+
+        .Right-nav{
+            li{
+                font-size: 2em;
+                text-decoration: none;
+                margin-left: 1em;
+                list-style-type: none;//removes dots from list items
+            }
+
+            display: flex;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        .Left-nav{
+            li{
+                font-size: 2em;
+                text-decoration: none;
+                margin-left: 1em;
+                list-style-type: none;//removes dots from list items
+            }
+
+            display: flex;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+
+.nav-logo{
+    width: 5%;
+}
