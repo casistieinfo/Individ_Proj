@@ -8,6 +8,7 @@
   top: 0;
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: 'Poppins';
 }
 
@@ -16,7 +17,9 @@
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
-  padding: 1em;
+  padding: .3em;
+  padding-left: 2em;
+  padding-right: 2em;
   background: #dddddd;
 }
 
@@ -27,7 +30,7 @@
 }
 
 .navbar .container .Right-nav li {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-left: 1em;
   list-style-type: none;
@@ -50,7 +53,7 @@
 }
 
 .navbar .container .Left-nav li {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-left: 1em;
   list-style-type: none;
@@ -82,6 +85,7 @@
 
 .nav-logo {
   width: 4%;
+  height: 4%;
 }
 
 body {

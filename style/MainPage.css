@@ -3,7 +3,7 @@
     background-color:green;
     width: 100%;
     height: 650px;
-    margin-top: 5em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */
+    margin-top: 4em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */
 }
 .maintext{
     display: inline-block;
