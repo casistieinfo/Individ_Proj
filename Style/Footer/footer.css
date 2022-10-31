@@ -1,41 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
 .footer {
-  background: bisque;
-  width: 100%;
   position: fixed;
   bottom: 0;
+  background: black;
+  color: #bdbdbd;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  place-content: space-between;
   font-family: 'Poppins';
-  display: block;
-  text-align: center;
-  font-size: 1em;
-  padding: .1em 0 .1em 0;
+  padding-left: 1em;
 }
 
-.footer p {
-  color: black;
+.footer .Credits {
+  margin-right: 2em;
+  float: right;
+}
+
+.footer .Credits span {
+  color: var(--Phoenix-Color);
 }
 
 .footer ul {
-  list-style-type: none;
-  place-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer ul li {
-  display: inline;
+  list-style-type: none;
   margin-right: 2em;
 }
 
 .footer ul a {
   text-decoration: none;
-  color: #434343;
+  color: #989898;
 }
 
 .footer ul a:hover {
-  color: black;
-  font-weight: bold;
+  color: white;
 }
 
-.footer .Credits {
-  margin-top: 2em;
+.footer .Right-Foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=footer.css.map */
