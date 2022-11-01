@@ -1,9 +1,10 @@
 .mainpage {
-    display:inline-block;
+    display:flex;
+    margin-top: 80px;
     background-color:green;
     width: 100%;
     height: 650px;
-    margin-top: 4em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */
+    margin-top: 4em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */ /*TOT S-A SUPRAPUS HAHAHAHHAHAHAHAHA :))))*/
 }
 .maintext{
     display: inline-block;
@@ -12,18 +13,23 @@
     height: 100%;
 }
 .mainphotos{
+    margin: 0%;
+    padding: 0%;
     display: inline-block;
     width: 50%;
-    float: right;
-    height: 100%;
-    object-fit: contain;
 }
 .photos{
+    margin: 0%;
+    padding: 0%;
     height: 100%;
+    object-position: -40px;
+    width: 100%;
+    object-fit: cover;
 }
 
 
 body{
+    margin: 0%;
     height: 10000px;
 }
 
