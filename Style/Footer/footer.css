@@ -40,6 +40,57 @@
   font-weight: bold;
 }
 
+.footer .Right-Foot .button {
+  display: inline-block;
+  margin: .8em .3em;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  background: #bdbdbd;
+  border-radius: .5em;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+
+.footer .Right-Foot .button:hover {
+  width: 150px;
+  background: var(--Phoenix-Color);
+  color: black;
+}
+
+.footer .Right-Foot .button span {
+  font-size: 15px;
+  font-weight: 250;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.footer .Right-Foot .button .icon {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  line-height: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.footer .Right-Foot .button .icon .Facebook-Letter {
+  color: blue;
+}
+
+.footer .Right-Foot .button .icon .Instagram-Letter {
+  color: orange;
+}
+
+.footer .Right-Foot .button .icon i {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .footer .Credits {
   margin-right: 1em;
   float: right;

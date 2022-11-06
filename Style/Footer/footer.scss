@@ -32,6 +32,54 @@
                 }
             }
         }
+
+        .button{
+            display: inline-block;
+            margin: .8em .3em;
+            height: 30px;
+            width: 30px;
+            vertical-align: middle;
+            background: rgb(189, 189, 189);
+            border-radius: .5em;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            overflow: hidden;
+
+            &:hover{
+                width: 150px;
+                background: var(--Phoenix-Color);
+                color: black;
+            }
+
+            span{
+                font-size: 15px;
+                font-weight: 250;
+                line-height: 30px;
+                margin-left: 10px;
+            }
+
+            .icon{
+                height: 30px;
+                width: 30px;
+                display: inline-block;
+                line-height: 30px;
+                box-sizing: border-box;
+                text-align: center;
+                border-radius: 50px;
+
+                .Facebook-Letter{
+                    color: blue;
+                }
+
+                .Instagram-Letter{
+                    color: orange;
+                }
+                i{
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+        }
     }
 
     .Credits{
