@@ -33,13 +33,18 @@
             }
         }
 
+        a{
+            text-decoration: none;
+            color:rgb(189, 189, 189);
+        }
+
         .button{
             display: inline-block;
             margin: .8em .3em;
             height: 30px;
             width: 30px;
             vertical-align: middle;
-            background: rgb(189, 189, 189);
+            border: 3px solid gray;
             border-radius: .5em;
             cursor: pointer;
             transition: all 0.3s ease-out;
@@ -47,8 +52,6 @@
 
             &:hover{
                 width: 150px;
-                background: var(--Phoenix-Color);
-                color: black;
             }
 
             span{
@@ -68,12 +71,13 @@
                 border-radius: 50px;
 
                 .Facebook-Letter{
-                    color: blue;
+                    color: #4267B2;
                 }
 
                 .Instagram-Letter{
-                    color: orange;
+                    color: #d6249f;
                 }
+
                 i{
                     font-size: 18px;
                     line-height: 30px;
@@ -87,7 +91,7 @@
         float:right;
         color: white;
         span{
-            color: var(--Phoenix-Color);
+            color: lightblue;
         }
     }
 
