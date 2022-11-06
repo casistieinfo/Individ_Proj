@@ -6,40 +6,47 @@
     background: black;
     color: rgb(189, 189, 189);
     width: 100%;
-    display: flex;
     font-weight: bold;
-    place-content: space-between;
     font-family: 'Poppins';
     padding-left: 1em;
 
-    .Credits{
-      margin-right: 2em;
-      span{
-        color: var(--Phoenix-Color);
-      }
-      float: right;
-    } 
-
-    ul{
+    .Right-Foot{
+        float: left;
         display: flex;
-        li{
-            list-style-type: none;
-            margin-right: 2em;
-        }
+        ul{
+            display: flex;
+            li{
+                margin-right: 1em;
+                font-size: 1em;
+                text-decoration: none;
+                list-style-type: none;
+    
+            }
 
-        a{
-            text-decoration: none;
-            color: rgb(152, 152, 152);
-            &:hover{
-                color: white;
+            a{
+                color:rgb(189, 189, 189);
+                text-decoration: none;
+                &:hover{
+                    color: white;
+                    font-weight: bold;
+                }
             }
         }
     }
-   
-    .Right-Foot{
-        display: flex;
+
+    .Credits{
+        margin-right: 1em;
+        float:right;
+        color: white;
+        span{
+            color: var(--Phoenix-Color);
+        }
     }
 
-   
-    
+   .Lorem-Ipsum-Img{
+        width: 4%;
+        float:right;
+        margin-right: 2em;
+    }
+
 }
