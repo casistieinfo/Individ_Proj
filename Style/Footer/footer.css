@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
 .footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  margin-top: 2000px;
   background: black;
   color: #bdbdbd;
+  height: 70px;
   width: 100%;
   font-weight: bold;
   font-family: 'Poppins';

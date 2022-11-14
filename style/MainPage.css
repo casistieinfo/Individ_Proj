@@ -1,16 +1,16 @@
 .mainpage {
-    display:flex;
+    display: block;
     margin-top: 80px;
     background-color:green;
     width: 100%;
-    height: 650px;
+    height: 300px;
     margin-top: 4em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */ /*TOT S-A SUPRAPUS HAHAHAHHAHAHAHAHA :))))*/
 }
 .maintext{
     display: inline-block;
     background-color: red;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 700px;
 }
 .mainphotos{
     margin: 0%;
@@ -30,6 +30,6 @@
 
 body{
     margin: 0%;
-    height: 10000px;
+    height: 1000px;
 }
 
