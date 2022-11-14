@@ -11,15 +11,16 @@
     padding: 0;
     width: 100%;
     font-family: 'Poppins';
+    background-color: rgb(221, 221, 221);
     .container{
-        display: flex;
-        place-content: space-between;
         padding: .3em;
         padding-left: 2em;
         padding-right: 2em;
         background: rgb(221, 221, 221);
 
         .Right-nav{
+
+            float: left;
             li{
                 font-size: 1em;
                 text-decoration: none;
@@ -28,7 +29,7 @@
 
                 &:hover{
                     font-weight: bold;
-                    color: rgb(57, 57, 57);
+                    color: rgb(193, 193, 193);
                 }
             }
 
@@ -41,6 +42,7 @@
         }
 
         .Left-nav{
+            float: right;
             li{
                 font-size: 1em;
                 text-decoration: none;
@@ -78,6 +80,7 @@
 
 
 .nav-logo{
+    float: left;
     width: 4%;
     height: 4%;
 }
