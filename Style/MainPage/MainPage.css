@@ -1,0 +1,81 @@
+.mainpage {
+  display: block;
+  margin-top: 80px;
+  background-color: green;
+  width: 100%;
+  height: 300px;
+  margin-top: 4em;
+  /*Am pus ca sa nu se suprapuna navbaru cu textul :) */
+  /*TOT S-A SUPRAPUS HAHAHAHHAHAHAHAHA :))))*/
+}
+
+.maintext {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+  font-family: "Poppins";
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.maintext .main-4 {
+  overflow: hidden;
+  background: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  text-align: center;
+}
+
+.maintext .main-4:hover .Text {
+  font-size: 20px;
+  color: white;
+}
+
+.maintext .main-4:hover img {
+  opacity: 0.5;
+}
+
+.maintext .main-4 img {
+  width: 100%;
+}
+
+.maintext .main-4 .Text {
+  font-size: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.maintext .main-4 ul li {
+  list-style-type: none;
+}
+
+.mainphotos {
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+  width: 50%;
+}
+
+.photos {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  -o-object-position: -40px;
+     object-position: -40px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  margin: 0%;
+  height: 1000px;
+}
+/*# sourceMappingURL=MainPage.css.map */
