@@ -1,113 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
+:root {
+  --Phoenix-Color:rgb(255, 123, 0);
+}
+
 .footer {
   position: relative;
+  bottom: 0;
   margin-top: 2000px;
   background: black;
   color: #bdbdbd;
-  height: 70px;
+  height: 150px;
   width: 100%;
   font-weight: bold;
   font-family: 'Poppins';
-  padding-left: 1em;
+  display: block;
+}
+
+.footer .Container {
+  padding-bottom: 2em;
+}
+
+.footer .Phoenix-Text {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.footer .Phoenix-Text span {
+  color: var(--Phoenix-Color);
 }
 
 .footer .Right-Foot {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer .Right-Foot .Follow-Text {
+  padding-left: 1em;
+}
+
+.footer .Right-Foot .Insta-Logo {
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 20%;
+  color: gray;
 }
 
-.footer .Right-Foot ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.footer .Right-Foot .Face-Logo {
+  float: left;
+  width: 15%;
+  color: gray;
 }
 
-.footer .Right-Foot ul li {
-  margin-right: 1em;
-  font-size: 1em;
-  text-decoration: none;
-  list-style-type: none;
+.footer .Logo-Creds {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.footer .Right-Foot ul a {
-  color: #bdbdbd;
-  text-decoration: none;
-}
-
-.footer .Right-Foot ul a:hover {
-  color: white;
-  font-weight: bold;
-}
-
-.footer .Right-Foot a {
-  text-decoration: none;
-  color: #bdbdbd;
-}
-
-.footer .Right-Foot .button {
-  display: inline-block;
-  margin: .8em .3em;
-  height: 30px;
-  width: 30px;
-  vertical-align: middle;
-  border: 3px solid gray;
-  border-radius: .5em;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  overflow: hidden;
-}
-
-.footer .Right-Foot .button:hover {
-  width: 150px;
-}
-
-.footer .Right-Foot .button span {
-  font-size: 15px;
-  font-weight: 250;
-  line-height: 30px;
-  margin-left: 10px;
-}
-
-.footer .Right-Foot .button .icon {
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  line-height: 30px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-align: center;
-  border-radius: 50px;
-}
-
-.footer .Right-Foot .button .icon .Facebook-Letter {
-  color: #4267B2;
-}
-
-.footer .Right-Foot .button .icon .Instagram-Letter {
-  color: #d6249f;
-}
-
-.footer .Right-Foot .button .icon i {
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.footer .Credits {
-  margin-right: 1em;
+.footer .Logo-Creds .Credits {
   float: right;
   color: white;
+  bottom: 0;
 }
 
-.footer .Credits span {
+.footer .Logo-Creds .Credits span {
   color: lightblue;
 }
 
-.footer .Lorem-Ipsum-Img {
+.footer .Logo-Creds .Lorem-Ipsum-Img {
   width: 4%;
   float: right;
-  margin-right: 2em;
+  bottom: 0;
 }
 /*# sourceMappingURL=footer.css.map */
