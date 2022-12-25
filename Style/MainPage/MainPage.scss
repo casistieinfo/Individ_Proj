@@ -1,8 +1,7 @@
 .mainpage {
     display: block;
-    margin-top: 20px;
     width: 100%;
-    height: 1000px;
+    height: 1900px;
     margin-top: 1em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */ /*TOT S-A SUPRAPUS HAHAHAHHAHAHAHAHA :))))*/
 }
 .maintext{
@@ -10,7 +9,7 @@
     font-weight: 200;
     text-align: center;
     width: 100%;
-    height: 600px;
+    height: 100px;
     font-family: "Poppins";
     text-decoration: none;
     transition: 0.3s;
@@ -18,13 +17,18 @@
     .main-1{
         display: flex;
 
-        padding: 1em;
+        background: #00755E;
+        height: 200px;
+
+        padding: 10em;
         img{
-            width: 45%;
+            width: 140%;
+            height: 140%;
             border-radius: 3em;
         }
         
         .Text{
+            padding-top: 30px;
             font-size: 20px;
         }
 
@@ -33,19 +37,20 @@
                 list-style-type: none;
             }
         }
+
     }
 
     .main-2{
-        display: flex;
-
         padding: 1em;
-        img{
-            width: 60%;
-            border-radius: 3em;
-        }
+        background: url('/poze_cerce/WhatsApp\ Image\ 2022-12-13\ at\ 20.36.33.jpg');
+        background-repeat: no-repeat;
+        height: 960px;
+        text-align: center;
+        
         
         .Text{
-            font-size: 20px;
+            padding-top: 200px;
+            font-size: 40px;
         }
 
         ul{
@@ -57,15 +62,18 @@
 
     .main-3{
         display: flex;
-
-        padding: 1em;
+        background: #1A2421;
+        padding: 10em 2em;
+        height: 300px;
         img{
-            width: 60%;
+            width: 130%;
+            height: 130%;
             border-radius: 3em;
         }
         
         .Text{
-            font-size: 20px;
+            font-size: 17px;
+            color: white;
         }
 
         ul{
@@ -76,16 +84,17 @@
     }
 
     .main-4{
-        display: flex;
-
         padding: 1em;
-        img{
-            width: 60%;
-            border-radius: 3em;
-        }
-        
+        background: url('/poze_cerce/WhatsApp Image 2022-12-13 at 20.35.56.jpg');
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 960px;
+        text-align: center;
+
         .Text{
-            font-size: 20px;
+            padding-top: 200px;
+            font-size: 30px;
+            color: white;
         }
 
         ul{
