@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+.Hero{
+    margin-top: 70px;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    display: block;
+    font-family: 'Poppins';
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 3em;
+    }
+
+    .Prezentare-1{
+
+        text-align: center;
+        font-size: 25px;
+        
+    }
+
+    .Nume-prezentare{
+        text-align: center;
+    }
+}

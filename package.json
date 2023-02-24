@@ -1,0 +1,27 @@
+{
+  "name": "phoenixarad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasianJors/PhoenixArad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CasianJors/PhoenixArad/issues"
+  },
+  "homepage": "https://github.com/CasianJors/PhoenixArad#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

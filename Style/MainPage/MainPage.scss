@@ -1,0 +1,185 @@
+.mainpage {
+    display: block;
+    width: 100%;
+    height: 1900px;
+    margin-top: 1em;/*Am pus ca sa nu se suprapuna navbaru cu textul :) */ /*TOT S-A SUPRAPUS HAHAHAHHAHAHAHAHA :))))*/
+}
+.maintext{
+    display: inline-block;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-family: "Poppins";
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+
+    .curve1{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 350px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/design_/wave\ \(1\).svg');
+    }
+
+    .curve2{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -800px;
+        width: 100%;
+        height: 350px;
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/design_/wave\ \(2\).svg');
+    }
+
+    .curve3{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2432px;
+        width: 100%;
+        height: 350px;
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/design_/wave\ \(6\).svg');
+    }
+
+    .curve4{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1600px;
+        width: 100%;
+        height: 350px;
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('/design_/wave\ \(5\).svg');
+    }
+
+    
+
+    .main-1{
+        display: flex;
+        background: #00cba9;
+        height: 200px;
+        
+        padding: 10em;
+        img{
+            width: 140%;
+            height: 140%;
+            border-radius: 3em;
+        }
+        
+        .Text{
+            padding-top: 30px;
+            font-size: 20px;
+        }
+
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+
+    }
+
+    .main-2{
+        padding: 1em;
+        background: url('/poze_cerce/WhatsApp\ Image\ 2022-12-13\ at\ 20.36.33.jpg');
+        background-repeat: no-repeat;
+        height: 960px;
+        text-align: center;
+        
+        .Text{
+            padding-top: 200px;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 20px;
+        }
+
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+
+    .main-3{
+        display: flex;
+        background: #1A2421;
+        padding: 10em 2em;
+        height: 300px;
+        img{
+            width: 130%;
+            height: 130%;
+            border-radius: 3em;
+        }
+        
+        .Text{
+            font-size: 17px;
+            color: white;
+        }
+
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+
+    .main-4{
+        padding: 1em;
+        background: url('/poze_cerce/WhatsApp Image 2022-12-13 at 20.35.56.jpg');
+        background-color: black;
+        background-repeat: no-repeat;
+        height: 960px;
+        text-align: center;
+
+        .Text{
+            padding-top: 200px;
+            font-size: 20px;
+            padding-left: 350px;
+            padding-right: 350px;
+            color: rgb(0, 0, 0);
+        }
+
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.mainphotos{
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    width: 50%;
+}
+.photos{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    object-position: -40px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+body{
+    margin: 0%;
+    height: 1000px;
+}
+

@@ -1,0 +1,20 @@
+
+
+- subscription for every time activities are posted
+- animation (pop appear) when scrolled down
+- statistics on Our Impact (live actions on how many mambers we are, how many activities we have)
+- statistics on how many people click what button, how long do users spend on each page
+- have the same set of icons, with phoenix style on them (yellow faded to red on hover)
+
+
+inspiration for v1-v2:
+- https://kwala.co/
+- https://www.alz.org/
+- https://mhanational.org/
+https://wanderful.index.studio/fr/
+
+inspirations for v3:
+-https://www.joshuas.world/
+https://www.museothyssen.org/webdocs/conectathyssen/volver-naturaleza/en/
+https://proof.io/
+https://www.in56.es/

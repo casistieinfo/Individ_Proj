@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+:root{
+    --Phoenix-Color:rgb(255, 123, 0);
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 2000px;
+    background: black;
+    color: rgb(189, 189, 189);
+    height: 150px;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Poppins';
+    display: block;
+
+    .Container{
+        padding-bottom: 2em;
+    }
+
+    .Phoenix-Text{
+        padding-top: 1em;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        span{
+            color: var(--Phoenix-Color);
+        }
+    }
+
+    .Right-Foot{
+        margin-left: 20px;
+        position: absolute;
+        bottom: 1em;
+
+        .Follow-Text{
+            padding-left: 1em;
+        }
+
+        .Insta-Logo{
+            float: left;
+            width: 15%;  
+            color: gray;
+            padding-left: .5em;   
+        }
+
+        .Face-Logo{
+            float: left;
+            width: 12%;  
+            color: gray;  
+            padding-left: .5em;  
+        }
+
+        
+    }
+
+    .Logo-Creds{
+        position: absolute;
+        bottom: 1em;
+        right: 0;
+        .Credits{
+            float:right;
+            color: white;
+            bottom: 0;
+            span{
+                color: lightblue;
+            }
+        }
+    
+       .Lorem-Ipsum-Img{
+            width: 4%;
+            float:right;
+            bottom: 0;
+        }
+    }
+}

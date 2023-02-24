@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap");
+:root {
+  --Phoenix-Color:rgb(255, 123, 0);
+}
+
+.navbar {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Poppins';
+  background-color: #dddddd;
+}
+
+.navbar .container {
+  padding: .3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background: #dddddd;
+}
+
+.navbar .container .Right-nav {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .container .Right-nav li {
+  font-size: 1em;
+  text-decoration: none;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.navbar .container .Right-nav li:hover {
+  font-weight: bold;
+  color: #c1c1c1;
+}
+
+.navbar .container .Right-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .container .Left-nav {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .container .Left-nav li {
+  font-size: 1em;
+  text-decoration: none;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.navbar .container .Left-nav li:hover {
+  font-weight: bold;
+  color: #393939;
+}
+
+.navbar .container .Left-nav li .Don {
+  background: var(--Phoenix-Color);
+  border-radius: 5em;
+  border: 3px solid var(--Phoenix-Color);
+  font-weight: bold;
+  padding: 5px;
+  color: #dddddd;
+}
+
+.navbar .container .Left-nav li .Don:hover {
+  color: var(--Phoenix-Color);
+  background-color: #dddddd;
+}
+
+.navbar .container .Left-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo {
+  float: left;
+  width: 4%;
+  height: 4%;
+}
+
+body {
+  height: 1000px;
+}
+/*# sourceMappingURL=Navbar.css.map */
